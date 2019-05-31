@@ -7,6 +7,6 @@ NPM_TOKEN=$2
 
 case "$BRANCH" in
     master)
-        ./.circleci/deploy-npm.sh
+        ./.circlci/angular2-tslint-rules/deploy-npm.sh
         ;;
 esac

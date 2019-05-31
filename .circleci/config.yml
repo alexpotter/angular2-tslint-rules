@@ -17,4 +17,4 @@ jobs:
           paths: 'node_modules'
       - run:
           name: Deploy
-          command: ./angular2-tslint-rules/.circlci/deploy.sh $CIRCLE_BRANCH $NPM_TOKEN
+          command: ./.circlci/angular2-tslint-rules/deploy.sh $CIRCLE_BRANCH $NPM_TOKEN
