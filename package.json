@@ -1,6 +1,6 @@
 {
 	"name": "angular2-tslint-rules",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Shared TSLint & codelyzer rules for Angular development",
 	"repository": {
 		"type": "git",
