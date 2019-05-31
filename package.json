@@ -1,0 +1,35 @@
+{
+	"name": "angular2-tslint-rules",
+	"version": "1.0.0",
+	"description": "Shared TSLint & codelyzer rules for Angular development",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexpotter/angular2-tslint-rules.git"
+	},
+	"keywords": [
+		"linting-rules",
+		"tslint",
+		"frontend",
+		"angular"
+	],
+	"author": {
+		"name": "Alex Potter",
+		"email": "alex.potter1993@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/alexpotter/angular2-tslint-rules/issues"
+	},
+	"homepage": "https://github.com/alexpotter/angular2-tslint-rules#readme",
+	"scripts": {
+		"release": "standard-version"
+	},
+	"main": "./tslint.json",
+	"devDependencies": {
+		"standard-version": "^5.0.2"
+	},
+	"peerDependencies": {
+		"codelyzer": ">=4.5.0 <5.0.0",
+		"tslint": ">=5.16.0"
+	}
+}
