@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    working_directory: /home/circleci/angular2-tslint-rules
+
     docker:
       - image: circleci/node:10
     steps:
