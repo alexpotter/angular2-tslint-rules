@@ -3,7 +3,7 @@
 ### Installation
 
 ```bash
-npm install -S tslint codelyzer angualar-tslint-rules
+npm install -S eslint codelyzer angualar-tslint-rules
 ```
  ### Usage
  

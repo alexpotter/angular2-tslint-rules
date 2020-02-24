@@ -1,7 +1,7 @@
 {
 	"name": "angular2-tslint-rules",
-	"version": "1.0.8",
-	"description": "Shared TSLint & codelyzer rules for Angular development",
+	"version": "2.0.0",
+	"description": "Shared eslint & codelyzer rules for Angular development",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/alexpotter/angular2-tslint-rules.git"
@@ -30,8 +30,9 @@
 	},
 	"peerDependencies": {
 		"codelyzer": ">=4.5.0 <5.0.0",
+		"eslint": "^6.8.0",
 		"lodash": ">=4.17.13",
 		"lodash.template": ">=4.5.0",
-		"tslint": ">=5.16.0"
+		"typescript": "^3.8.2"
 	}
 }
